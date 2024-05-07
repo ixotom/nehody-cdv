@@ -1,0 +1,30 @@
+{
+  "title": "Scrape data from a web page",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "dateFrom": {
+      "title": "Od",
+      "type": "string",
+      "description": "Datum ve formatu RRRR-MM-DD",
+      "prefill": "2022-10-10",
+      "editor": "textfield"
+    },
+    "dateTo": {
+      "title": "Do",
+      "type": "string",
+      "description": "Datum ve formatu RRRR-MM-DD",
+      "prefill": "2022-10-11",
+      "editor": "textfield"
+    },
+    "vehicle": {
+      "title": "Druh voidla",
+      "type": "string",
+      "description": "Vyber druh vozidla",
+      "editor": "select",
+      "enum": ["13", "15", "19"],
+      "enumTitles": ["kolo", "jine nemotorove vozidlo", "kolobezka"]
+    }
+  },
+  "required": ["dateFrom", "dateTo", "vehicle"]
+}

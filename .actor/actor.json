@@ -1,0 +1,12 @@
+{
+	"actorSpecification": 1,
+	"name": "nehody-cdv",
+	"title": "Dopravni nehody v CR",
+	"description": "Stahne data o dopravnich nehodach pro zadany obdobi a druh vozidla",
+	"version": "0.0",
+	"buildTag": "latest",
+	"meta": {
+		"templateId": "ts-empty"
+	},
+	"dockerfile": "./Dockerfile"
+}
